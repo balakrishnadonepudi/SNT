@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SNT_WEB", "SNT_WEB", "{FF1FE4CD-D5B1-45FD-A471-2A986B87DC62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNT_WEB", "SNT_WEB\SNT_WEB.csproj", "{003DBC86-7530-40A9-8840-DE3ADF6C9437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003DBC86-7530-40A9-8840-DE3ADF6C9437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003DBC86-7530-40A9-8840-DE3ADF6C9437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003DBC86-7530-40A9-8840-DE3ADF6C9437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003DBC86-7530-40A9-8840-DE3ADF6C9437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{003DBC86-7530-40A9-8840-DE3ADF6C9437} = {FF1FE4CD-D5B1-45FD-A471-2A986B87DC62}
+	EndGlobalSection
+EndGlobal
