@@ -5,6 +5,8 @@
 //if u want more info --> "https//developer.mozilla.org/en-US/docs/Web/API/Window/location"
 var webDomainInfo = window.location.origin + "/";
 
+var NewTest = "";
+
 //SOME TIME ORIGION GETTING UNDEFINED
 if (!window.location.origin) {
     //window.location.protocol --> https:
