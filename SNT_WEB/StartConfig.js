@@ -13,6 +13,8 @@ var fromBalu = "";
 
 var fromBasha = "";
 
+var finalTestByBaha = "test git";
+
 //SOME TIME ORIGION GETTING UNDEFINED
 if (!window.location.origin) {
     //window.location.protocol --> https:
