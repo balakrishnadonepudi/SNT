@@ -1,0 +1,25 @@
+.masterbar {
+    background: #0087be;
+    border-color:#0079aa;
+    /* height: 10vh; */
+    padding: 0;
+    min-height: 121px;
+    background: url(../img/hdbg.png) repeat-x #0087be;
+}
+
+.sntmargin{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ceterBanner {
+    /* height: 79vh; */
+    border-color: red;
+    background:blanchedalmond;
+}
+
+.footerBanner {
+    /* height: 10vh; */
+    border-color: green;
+    background:yellowgreen;
+}
