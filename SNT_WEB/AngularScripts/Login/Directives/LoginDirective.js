@@ -1,4 +1,4 @@
-﻿/// <reference path="C:\Users\balakrishna.donepudi.KJSYSTEMS\Desktop\SNT_WEB\SNT_WEB\Scripts/angular.js" />
+﻿// /// <reference path="C:\Users\balakrishna.donepudi.KJSYSTEMS\Desktop\SNT_WEB\SNT_WEB\Scripts/angular.js" />
 
 'use strict';
 
