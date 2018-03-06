@@ -9,6 +9,8 @@ var NewTest = "";
 
 var fromRavi = "";
 
+var fromBalu = "";
+
 //SOME TIME ORIGION GETTING UNDEFINED
 if (!window.location.origin) {
     //window.location.protocol --> https:
