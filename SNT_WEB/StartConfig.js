@@ -15,6 +15,8 @@ var fromBasha = "";
 
 var finalTestByBaha = "test git";
 
+var finalfinal = "asdad";
+
 //SOME TIME ORIGION GETTING UNDEFINED
 if (!window.location.origin) {
     //window.location.protocol --> https:
