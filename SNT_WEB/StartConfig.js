@@ -11,6 +11,8 @@ var fromRavi = "";
 
 var fromBalu = "";
 
+var fromBasha = "";
+
 //SOME TIME ORIGION GETTING UNDEFINED
 if (!window.location.origin) {
     //window.location.protocol --> https:
