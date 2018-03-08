@@ -28,3 +28,62 @@
     background: #FFF;
     color: #838383;
 }
+
+.tweet_F {
+    width: 20px;
+    height: 21px;
+    overflow: hidden;
+    background: url(../Images/tweetfoot.png) 0px 0px no-repeat;
+    /* -moz-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+    -webkit-transition: .30s ease-in-out; */
+    float: left;
+    margin: 14px 0 0 0;
+}
+
+.fb_F {
+    width: 13px;
+    height: 17px;
+    overflow: hidden;
+    background: url(../Images/fbfoot.png) 0px 0px no-repeat;
+    -moz-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+    -webkit-transition: .30s ease-in-out;
+    float: left;
+    margin: 14px 0 0 26px;
+}
+
+.linkdin_F {
+    width: 19px;
+    height: 17px;
+    overflow: hidden;
+    background: url(../Images/linkdinfoot.png) 0px 0px no-repeat;
+    -moz-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+    -webkit-transition: .30s ease-in-out;
+    float: left;
+    margin: 14px 0 0 31px;
+}
+
+.gplus_F {
+    width: 20px;
+    height: 18px;
+    overflow: hidden;
+    background: url(../Images/gplusfoot.png) 0px 0px no-repeat;
+    -moz-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+    -webkit-transition: .30s ease-in-out;
+    float: left;
+    margin: 14px 0 0 25px;
+}
+
+.powered_F {
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 90%;
+    color: #838383;
+    text-align: right;
+}
