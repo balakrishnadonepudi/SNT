@@ -3,7 +3,7 @@
 
 //Window.location read-only property returns a Location object with information about the current location of the document
 //if u want more info --> "https//developer.mozilla.org/en-US/docs/Web/API/Window/location"
-var webDomainInfo = window.location.origin + "/";
+var webDomainInfo = window.location.origin;
 
 var NewTest = "";
 

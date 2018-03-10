@@ -1,5 +1,5 @@
 ﻿
-var SNTVersionNumber;
+var SNTVersionNumber = 1;
 
 
 
@@ -47,7 +47,7 @@ function checkVesrionNumberAndAssignIfNotAvail() {
 
 function GetSNTPageURLByPageName(pageName) {
 
-    return SNTApplicationPath + pageName + "?v=" + EMRVersionNumber;
+    return SNTApplicationPath + pageName;// + "?v=" + EMRVersionNumber;
 
     //if (checkVesrionNumberAndAssignIfNotAvail())
     //    return EMRApplicationPath + pageName + "?v=" + EMRVersionNumber;

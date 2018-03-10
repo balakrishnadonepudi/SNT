@@ -13,6 +13,7 @@
     <script src="Scripts/jquery-3.3.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
     
     
     <!-- Application Basic Variables are Going to be Present in Start Config Files  -->
@@ -24,10 +25,7 @@
     <script src="AngularScripts/Login/Modules/LoginModule.js"></script>
     <script src="AngularScripts/Admin/Modules/AdminRouting.js"></script>    
 
-    <script src="AngularScripts/Admin/Controllers/HomeController.js"></script>
-
     <script src="AngularScripts/Login/Directives/LoginDirective.js"></script>
-
     <script src="AngularScripts/Home/SNTHomeController.js"></script>
 
 </head>
@@ -49,9 +47,9 @@
                                </div>
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li><a title="Home">Home</a></li>
-                                        <li><a title="Facilities" alt="Facilities">Facilities</a></li>
-                                        <li><a title="Contact Us" alt="Contact Us">Contact Us</a></li>
+                                        <li><a title="Home" ng-click="sntHomeNavigateTOMainHome()">Home</a></li>
+                                        <li><a title="Facilities" alt="Facilities" ng-click="sntHomeNavigateTOMainHome()">Facilities</a></li>
+                                        <li><a title="Contact Us" alt="Contact Us" ng-click="sntHomeNavigateTOAboutUs()">Contact Us</a></li>
                                         <li><a title="Login">Login</a></li>
                                     </ul>
                                 </div>
@@ -61,7 +59,9 @@
                 </div>
 
                 <div id="sntCenter" class="sntmargin ceterBanner"> 
-                    
+                    <div ui-view="item">
+                        
+                    </div>
                 </div>
 
                 <div id="sntFooter" class="sntmargin footerBanner">
